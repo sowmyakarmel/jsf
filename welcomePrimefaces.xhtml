@@ -1,0 +1,156 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:p="http://primefaces.org/ui">
+
+    <f:view contentType="text/html">
+
+        <h:head> 
+            <f:facet name="first"> 
+                <meta content='text/html; charset=UTF-8' http-equiv="Content-Type"/>
+                <title>PrimeFaces</title>
+            </f:facet>
+        </h:head>
+
+        <h:body style="color: orange">
+
+
+            <p:layout fullPage="true"  style=" color: orange">
+
+                <p:layoutUnit position="north" size="160"  resizable="false" style="background:orange;  " >
+
+                    <p align="center" style="background-color: orange">  IndianOil Corporation Limited State Office</p>
+
+                    <p:menubar style="background-color: sandybrown; border-collapse: collapse" >
+                        <p:menuitem value="Consumer Sales" url="http://10.194.32.13:8081/apsointranet/CS_page.jsp"></p:menuitem>
+                        <p:menuitem value="CSR" url="http://10.194.32.13:8081/apsointranet/CSR_first.jsp"></p:menuitem>
+                        <p:menuitem value="Engineering" url="http://10.194.32.13:8081/apsointranet/engHome.jsp"></p:menuitem>
+                        <p:menuitem value="Finance" url="http://10.194.32.13:8081/apsointranet/F_Page.jsp"></p:menuitem>
+                        <p:menuitem value="HR" url="http://10.194.32.13:8081/apsointranet/HR_Page.jsp"></p:menuitem>
+                        <p:menuitem value="Information System" url="http://10.194.32.13:8081/apsointranet/IS_first.jsp"></p:menuitem>
+                        <p:menuitem value="Law" url="http://10.194.32.13:8081/apsointranet/law_page.jsp"></p:menuitem>
+                        <p:menuitem value="LPG" url="http://10.194.32.13:8081/apsointranet/LPG_page.jsp"></p:menuitem>
+                        <p:submenu label="Lubes Retail">
+                            <p:menuitem value="TAPSO Lubes" url="http://10.194.32.13:8081/apsointranet/Lubes_Show.jsp" style="background-color: sandybrown"></p:menuitem>
+                            <p:menuitem value="HO Lubes" url="https://www.iocl.com/home.aspx?aspxerrorpath=/Products/LubesGreases.aspx" style="background-color: sandybrown"></p:menuitem>
+                        </p:submenu>
+                        <p:menuitem value="Operations" url="http://10.194.32.13:8081/apsointranet/opt_home.jsp"></p:menuitem>
+                        <p:menuitem value="Pricing and Planning" url="http://10.194.32.13:8081/apsointranet/MIS_page.jsp"></p:menuitem>
+                        <p:menuitem value="Retail Sales" url="http://10.194.32.13:8081/apsointranet/RS_page.jsp"></p:menuitem>
+
+                    </p:menubar>
+                    <p align="center" style="background-color: orange">  Telangana and Andhra Pradesh State Office</p>
+
+
+
+                </p:layoutUnit>
+
+                <p:layoutUnit position="west" resizable="false" size="200"  style="color: orange;">
+
+                    <p:menu>
+                        <p:submenu label="Quote of the Day" style="background-color: darkorange">
+
+                        </p:submenu>
+
+
+                    </p:menu>
+
+
+                    <!--   <table header="Quote of the Day" minSize="10" maxSize="50" >  -->
+                    <p align="left"  style="color: orange; size: '50%'">"Tell me <br/>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-I forget <br/>
+                        Show me <br/>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-I remember<br/>
+                        Involve me 
+                        <br/>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-I learn"<br/><br/><br/><br/><br/><br/><br/>  
+                    </p>  
+                    <p>
+                    <hr />    
+                    </p>
+
+                    <h1 style="color: orange">Tips:</h1>
+
+
+                    <p style="color: orange">     After shutting down your machine please switch off Electrical points also at the time of leaving Office,
+                        this is necessary for preventing electrical fire hazards and also helps in saving power consumption 
+                    </p>
+
+
+                </p:layoutUnit> 
+
+                <p:layoutUnit position="east" resizable="false" size="200"  style="background-color: orange;">
+                    <p:menu>
+
+                        <p:submenu label="Resources" style="background-color: darkorange">
+
+                            <p:menuitem value="E-Dictionary" url="http://e-mahashabdkosh.rb-aai.in/"  style="background-color: sandybrown"/>
+                            <p:menuitem value="CVC Website Integrity Pledge" url="https://pledge.cvc.nic.in/" style="background-color: sandybrown"/>
+                            <p:menuitem value="Q and Q Reports" url="http://10.194.32.13:8081/reports_new/" style="background-color: sandybrown"/>
+                            <p:menuitem value="Swachh Bharat" url="http://10.194.32.13:8081/swachhbharat/" style="background-color: sandybrown"/>
+                            <p:menuitem value="Q and Q Perception Survey" url="http://10.194.32.13:8081/survey1/" style="background-color: sandybrown"/>
+                            <p:menuitem value="Flat Booking" url="http://10.194.32.13:8081/nivash/" style="background-color: sandybrown"/>
+                            <p:menuitem value="Success Story" url="http://10.194.32.13:8081/SuccessStory/" style="background-color: sandybrown"/>
+                            <p:menuitem value="IDeaL(IOCL Declaration of Assets and Liabilities)" url="http://10.52.180.37:7003/EmpAL/" style="background-color: sandybrown" />
+                            <p:menuitem value="HR Circulars/Forms" url="http://10.194.32.13:8081/apsointranet/HR_Page.jsp?valu=circulars" style="background-color: sandybrown"/>
+                            <p:menuitem value="All India Telephone Directory" url="https://spandan.indianoil.co.in/intranet/telephone/Interactive_Directory_IOCL.pdf" style="background-color: sandybrown"/>
+                            <p:menuitem value="TAPSO Holiday List" url="http://10.194.32.13:8081/apsointranet/docs/HOLIDAYLIST2017.PDF"  style="background-color: sandybrown"/>
+                            <p:menuitem value="Swachh Bharat" url="http://10.194.32.13:8081/apsointranet/swachhb.jsp" style="background-color: sandybrown"/>
+                            <p:menuitem value="Indian Oil Gandhiji Poster" url="http://10.194.32.13:8081/apsointranet/gandhiji.jsp" style="background-color: sandybrown"/>
+                            <p:menuitem value="Photo Gallery" url="photoGallery.xhtml" style="background-color: sandybrown"></p:menuitem>
+
+                        </p:submenu>
+
+                    </p:menu>
+
+                </p:layoutUnit>
+
+                <p:layoutUnit position="center">
+                    Welcome to PrimeFaces
+                </p:layoutUnit>
+
+
+                <p:layoutUnit position="center" resizable="false" maxSize="150" minSize="150" style="background-color: orange">
+
+
+
+                    <video controls="controls" poster="http://sandbox.thewikies.com/vfe-generator/images/big-buck-bunny_poster.jpg" width="100%" height="70%">
+                        <source src="http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4" type="video/mp4" />
+                        <object type="application/x-shockwave-flash" data="http://releases.flowplayer.org/swf/flowplayer-3.2.1.swf" width="640" height="360">
+                            <param name="movie" value="http://releases.flowplayer.org/swf/flowplayer-3.2.1.swf" />
+                            <param name="allowFullScreen" value="true" />
+                            <param name="wmode" value="transparent" />
+                            <param name="flashVars" value="config={'playlist':['http%3A%2F%2Fsandbox.thewikies.com%2Fvfe-generator%2Fimages%2Fbig-buck-bunny_poster.jpg',{'url':'http%3A%2F%2Fclips.vorwaerts-gmbh.de%2Fbig_buck_bunny.mp4','autoPlay':false}]}" />
+                            <img alt="Big Buck Bunny" src="http://sandbox.thewikies.com/vfe-generator/images/big-buck-bunny_poster.jpg" width="640" height="360" title="No video playback capabilities, please download the video below" />
+                        </object>
+                    </video>
+
+
+
+                    <img src="https://forum.primefaces.org/ext/planetstyles/flightdeck/store/prime.png" height="75" alt=""/>
+
+                    <p:dock position="bottom" itemWidth="75" maxWidth="75"  proximity="190" halign="right"  >
+                        <p:menuitem value="VPN"  icon="/images/vpn.jpg" url="http://10.194.32.13:8081/apsointranet/docs/VPN.pdf"/>
+                        <p:menuitem value="SAP" icon="/images/sap.jpg" url="http://10.194.32.13:8081/apsointranet/docs/SAPUSER.pdf"/>
+                        <p:menuitem value="Internet" icon="/images/internet.jpg" url="http://10.194.32.13:8081/apsointranet/docs/Internet_Approval.pdf"/>
+                        <p:menuitem value="USB" icon="/images/usb.png" url="http://10.194.32.13:8081/apsointranet/docs/USB_Approval.pdf"/>
+                        <p:menuitem value="DSC" icon="/images/dsc.jpg" url="http://10.194.32.13:8081/apsointranet/docs/DSC_Application.pdf"/>
+                    </p:dock>
+
+
+                </p:layoutUnit>
+
+
+
+            </p:layout>
+
+
+
+
+        </h:body>
+
+    </f:view>
+</html>
+
